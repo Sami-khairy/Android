@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz4"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 4"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/q1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En tant qu'automobiliste, vous devez etre plus vigilant lorsque :"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Le tramway est arrete" />
+
+        <RadioButton
+            android:id="@+id/rb8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le tramway circule" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bNext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Next"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logoo"/>
+
+
+</LinearLayout>

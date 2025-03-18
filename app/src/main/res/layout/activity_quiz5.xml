@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz5"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 5"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/q1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En conduissant, je peut utiliser mon portable pour ecrire un texto ou composer un numero :"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="OUI" />
+
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NON" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bNext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Next"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logoo"/>
+
+
+</LinearLayout>

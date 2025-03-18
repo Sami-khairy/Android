@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoo"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email*"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/baseline_mail_28"
+        />
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password*"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/baseline_lock_28"
+        />
+    <EditText
+        android:id="@+id/tvConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password*"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/baseline_lock_28"
+        />
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Register"
+        />
+
+
+</LinearLayout>
