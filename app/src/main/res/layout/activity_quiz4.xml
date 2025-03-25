@@ -20,7 +20,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/q1"
+        android:src="@drawable/q4"
         />
     <TextView
         android:layout_width="match_parent"

@@ -37,7 +37,7 @@ public class Quiz1 extends AppCompatActivity {
                 }
 
                 // Vérification par ID
-                if (selectedId == R.id.rb1) {
+                if (selectedId == R.id.rb2) {
                     resultat += 10;
                 }
 

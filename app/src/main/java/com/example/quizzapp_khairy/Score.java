@@ -27,14 +27,15 @@ public class Score extends AppCompatActivity {
         setContentView(R.layout.activity_score);
 
         resultat = getIntent().getIntExtra("resultat",0);
+        int percentage = (resultat * 10)/5;
 
         tvScore = findViewById(R.id.tvScore);
         bLogout = findViewById(R.id.bLogout);
         bTryAgain = findViewById(R.id.bTryAgain);
         progress_circular = findViewById(R.id.progress_circular);
 
-        progress_circular.setProgress(resultat);
-        tvScore.setText(resultat+"%");
+        progress_circular.setProgress(percentage);
+        tvScore.setText(percentage+"%");
 
 
         bLogout.setOnClickListener(new View.OnClickListener() {

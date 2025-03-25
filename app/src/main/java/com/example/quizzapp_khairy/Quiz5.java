@@ -38,7 +38,7 @@ public class Quiz5 extends AppCompatActivity {
                     return;
                 }
 
-                if(selectedId == R.id.rb9){
+                if(selectedId == R.id.rb10){
                     resultat += 10;
                 }
 
